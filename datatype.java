@@ -3,7 +3,10 @@ public class datatype {
     {
         int num = 12;
         String name = "Elakiaaaaaa";
-        System.out.println(name);
+        String number = Integer.toString(num);
+
+        int stringTonum = Integer.parseInt(number);
+        System.out.println(stringTonum);
 
     }
 }
