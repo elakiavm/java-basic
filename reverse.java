@@ -40,6 +40,10 @@ public class reverse {
                 }
 
             System.out.println("Prime number");
+
+            if(flag==true&&flag1==true){
+                System.out.println("Magical prime number");
+            }
         }
         else{
             System.out.println("Not Prime Number");

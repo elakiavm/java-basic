@@ -17,24 +17,9 @@ public class main {
       }
   
       if (!flag){
-        int num1 = num;
-        int reversed= reversNumber(num1);
-        if (num1 == reversed){
-          System.out.println(num + " is a prime number.");
-        }
+        System.out.println(num + " is a prime number.");
       }
       else
         System.out.println(num + " is not a prime number.");
     }
-    static int reversNumber(int num1)
-    {
-      int reversed_n = 0;
-      while (num1 > 0) {
-          reversed_n = reversed_n * 10 + num1 % 10;
-          num1 = num1 / 10;
-      }
-      return reversed_n;
-    }
   }
-
-

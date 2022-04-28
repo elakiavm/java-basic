@@ -12,7 +12,7 @@ public class jagged_array {
             {23,34,56,8}
         };
         int max;
-        Scanner sc = new Scanner(System.in);
+        // Scanner sc = new Scanner(System.in);
 
         for(int i=0;i<arr.length;i++){
             max = arr[i][0];
