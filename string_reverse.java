@@ -1,6 +1,9 @@
+import java.util.*;
 public class string_reverse {
     public static void main(String [] args){
-        String str = "a!!!b.c.d,e'f,ghi";
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter the string :");
+        String str = input.next();
         char[] charArray = str.toCharArray();
  
         System.out.println("Input string: " + str);
