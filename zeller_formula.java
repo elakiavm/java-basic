@@ -40,3 +40,8 @@ public class zeller_formula {
         }
     }
 }
+/* 
+century 
+non-century 
+leap year
+*/
